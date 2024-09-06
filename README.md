@@ -12,4 +12,4 @@ Data Preprocessing Notebooks for each modality are locatined in the "Preprocessi
 - LiDAR:
 - GPS:
 # CNN+GRU+FCNN
-Train and Test single modality and fusion (early/late) Notebooks are located the "" Folder
+Train and Test single modality and fusion (early/late) Notebooks are located the "CNN+GRU+FCNN Network" Folder
