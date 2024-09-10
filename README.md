@@ -8,7 +8,7 @@ Dataset is obtained from [DeepSense6G](https://www.deepsense6g.net/challenge2022
 # 2. Data Preprocessing
 Data Preprocessing and Data Visualization Notebooks for each modality are locatined in the "Data Preprocessing" Folder
 - Radar:  "Preprocessing_Radar.py"
--- Conversion from raw Radar samples to Range-Angle maps or Range-Velocity Maps
+- -- Conversion from raw Radar samples to Range-Angle maps or Range-Velocity Maps
 - LiDAR: "Preprocessing_LiDAR.py"
 -- Extraction of angle, distance and intesity features. 
 - GPS: "Preprocessing_GPS.py"
