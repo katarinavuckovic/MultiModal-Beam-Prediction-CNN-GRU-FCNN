@@ -14,14 +14,6 @@ def range_angle_map(data, fft_size = 64):
     data = np.abs(data).sum(axis = 2) # Sum over velocity
     return data.T
 
-def range_velocity_map(data):
-    data = np.fft.fft(data, axis=1) # Range FFT
-    # data -= np.mean(data, 2, keepdims=True)
-    data = np.fft.fft(data, axis=2) # Velocity FFT
-    data = np.fft.fftshift(data, axes=2)
-    data = np.abs(data).sum(axis = 0) # Sum over antennas
-    data = np.log(1+data)
-    return dat
 df_train =  pd.read_csv('./ml_challenge_dev_multi_modal.csv')
 
 def process_radar_data(df, num_paths=5):
@@ -30,7 +22,6 @@ def process_radar_data(df, num_paths=5):
     
     for i in range(1, num_paths + 1):
         radar_rel_paths = df[f'unit1_radar_{i}'].values
-        # For range velocity map subsititute range_velocity_map function into the next line
         radar_temp = [range_angle_map(np.load(path)) for path in radar_rel_paths]
         radar_data_all.append(np.array(radar_temp))
         print(f'radar_{i} done...')
