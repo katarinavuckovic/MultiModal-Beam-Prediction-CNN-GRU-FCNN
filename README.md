@@ -8,9 +8,11 @@ Dataset is obtained from [DeepSense6G](https://www.deepsense6g.net/challenge2022
 # 2. Data Preprocessing
 Data Preprocessing and Data Visualization Notebooks for each modality are locatined in the "Data Preprocessing" Folder
 - Radar:  "Preprocessing_Radar.py"
--   Conversion from raw Radar samples to Range-Angle maps or Range-Velocity Maps
+-- Conversion from raw Radar samples to Range-Angle maps or Range-Velocity Maps
 - LiDAR: "Preprocessing_LiDAR.py"
+-- Extraction of angle, distance and intesity features. 
 - GPS: "Preprocessing_GPS.py"
+-- Conversion to Cartesian coordinates with BS at the center. 
 - Vision: There is no special preprocessing for Vision. The RGB samples are converted to grayscale and then resized to (150,150)
 # CNN+GRU+FCNN
 Train and Test single modality and fusion (early/late) Notebooks are located the "CNN+GRU+FCNN Network" Folder
