@@ -14,5 +14,5 @@ Data Preprocessing and Data Visualization Notebooks for each modality are locati
 - GPS: "Preprocessing_GPS.py"
   - Conversion to Cartesian coordinates with BS at the center. 
 - Vision: There is no special preprocessing for Vision. The RGB samples are converted to grayscale and then resized to (150,150)
-# CNN+GRU+FCNN
+# 3. Train and Test Models
 Train and Test single modality and fusion (early/late) Notebooks are located the "CNN+GRU+FCNN Network" Folder
