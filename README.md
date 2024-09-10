@@ -16,3 +16,6 @@ Data Preprocessing and Data Visualization Notebooks for each modality are locati
 - Vision: There is no special preprocessing for Vision. The RGB samples are converted to grayscale and then resized to (150,150)
 # 3. Train and Test Models
 Train and Test single modality and fusion (early/late) Notebooks are located the "CNN+GRU+FCNN Network" Folder
+# 4. Reference
+If you use this script or part of it, please cite the following:
+ [paper](https://ieeexplore.ieee.org/document/10636967)
