@@ -31,4 +31,4 @@ Late Fusion:
 - Vision+LiDAR+RADAR+GPS: "LateFusion_VLRG_multipleRuns.ipynb"
 # 4. Reference
 If you use this script or part of it, please cite the following:
- [paper](https://ieeexplore.ieee.org/document/10636967)
+ [paper](TBD)
